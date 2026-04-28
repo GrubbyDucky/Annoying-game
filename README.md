@@ -32,6 +32,11 @@
       - No input within 5 seconds or "no" selected → game closes.
       - Repeats cycle on next launch.
 
+## Higher the specs longer the wait time
+ - On loading the game unity grabs the pcs hardware (GPU, CPU, RAM)
+ - uses a online Date Base to get the price of the hardware.
+ - when loading in levels it has a set time, then adds time based on price.
+
 ## Mouse Control
 - Mouse sensitivity set to ultra-low (sluggish movement).
   - Retains annoyance factor.
